@@ -1,6 +1,6 @@
 # Learn Arabic 
 
-`[Live Site](https://zen-jang-232e5d.netlify.app/)`
+Click Here: [Live Site](https://zen-jang-232e5d.netlify.app/)
 
 This site is made for student who are interested in learning `Arabic & The language of Al-Quran`
 
