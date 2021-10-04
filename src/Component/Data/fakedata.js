@@ -4,6 +4,7 @@ const data = [
         img:'',
         name:'',
         detail:'',
+        catagory:'',
         price: 150,
         duration:'',
     },
