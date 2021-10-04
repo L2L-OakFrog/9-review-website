@@ -1,5 +1,7 @@
 # Learn Arabic 
 
+`[Live Site](https://zen-jang-232e5d.netlify.app/)`
+
 This site is made for student who are interested in learning `Arabic & The language of Al-Quran`
 
 ## Services
@@ -11,9 +13,7 @@ This site is made for student who are interested in learning `Arabic & The langu
 
 ## Learn More
 
-[Live Site](https://zen-jang-232e5d.netlify.app/)
-
-# 
+# L
 
 ## To-Do:
 
