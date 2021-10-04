@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# Learn Arabic 
 
-## Available Scripts
+This site is made for student who are interested in learning `Arabic & The language of Al-Quran`
 
-In the project directory, you can run:
+## Services
 
-### `npm start`
+### `We Offer:`
+1. In this website you can choose from various available courses we offer;
+2. Check every details of your chosen course details;
+3. Get going with course facilities just after payment.
 
 ## Learn More
 

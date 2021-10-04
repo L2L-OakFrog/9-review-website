@@ -16,7 +16,7 @@ const data = [
         duration:'',
     },
     {
-        id: 3s,
+        id: 3,
         img:'',
         name:'',
         detail:'',
