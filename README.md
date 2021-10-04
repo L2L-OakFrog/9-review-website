@@ -38,5 +38,5 @@ Click Here: [Live Site](https://zen-jang-232e5d.netlify.app/)
 6. `Organized Codes`,
 7. `ReadMe File`, ✔
 
-Live Site: https://zen-jang-232e5d.netlify.app/
-GitHub: https://github.com/ProgrammingHeroWC4/review-website-L2L-OakFrog
+### Live Site: https://zen-jang-232e5d.netlify.app/ [Live Site](https://zen-jang-232e5d.netlify.app/)
+### GitHub: https://github.com/ProgrammingHeroWC4/review-website-L2L-OakFrog
