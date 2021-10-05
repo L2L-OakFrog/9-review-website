@@ -1,0 +1,28 @@
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+    padding: 10px 0px;
+    margin-bottom: 50px;
+}
+.title
+{
+    display: flex;
+    align-items: center;
+}
+.title-img
+{
+    margin-right: 15px;
+    height: 110px;
+}
+.title img
+{
+    height: 110px;
+    width: 100%;
+}
+.navs
+{
+    font-size: 25px;
+}

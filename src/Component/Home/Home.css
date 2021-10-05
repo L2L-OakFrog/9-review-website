@@ -1,0 +1,17 @@
+.top-banner
+{
+    margin-bottom: 20px;
+}
+.top-banner:hover
+{
+    background-color: darkgrey;
+    border-radius: 10px;
+    transition: 1s;
+}
+.banner{
+    align-items: center;
+}
+.carousel
+{
+    margin-bottom: 20px;
+}
