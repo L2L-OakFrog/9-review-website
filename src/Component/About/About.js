@@ -1,5 +1,6 @@
 import React from 'react';
-import Home from '../Home/Home';
+import Carousels from '../Carousel/Carousel';
+import './About.css';
 
 const About = () => {
     return (
@@ -8,6 +9,9 @@ const About = () => {
             <h4>This site is made for students who are interested in learning Arabic and The language of Al-Quran</h4>
             <br />
             <h5>Here in Arabites, We offer some valuable arabic courses that are easy to learn and also not very expensive.</h5>
+            <br />
+            <div className='showcase'><Carousels></Carousels></div>
+
         </div>
     );
 };

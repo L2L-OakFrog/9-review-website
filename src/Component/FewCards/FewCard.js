@@ -15,13 +15,15 @@ const FewCard = (props) => {
         color: "whitesmoke",
     }
     // Destructuring
-    const { name, img, detail } = props.info;
+    const { name, img, detail, classes, category } = props.info;
     return (
         <Card className='card'>
             <Card.Img variant="top" src={img} />
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
                 <Card.Text>{detail}</Card.Text>
+                <Card.Text>Category: {category}</Card.Text>
+                <Card.Text>Classes: {classes}</Card.Text>
                 <br />
                 <Button variant="outline-primary"><NavLink style={styles} activeStyle={actStyles} to='/services'>Details</NavLink></Button>{' '}
             </Card.Body>

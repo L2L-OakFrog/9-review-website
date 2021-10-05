@@ -18,6 +18,7 @@ const Home = (props) => {
     }
     return (
         <div className='home'>
+            {/* Top Banner */}
             <div className='container top-banner'>
                 <Container>
                     <Row className='banner'>
@@ -28,9 +29,11 @@ const Home = (props) => {
                     </Row>
                 </Container>
             </div>
-            <div className='container carousel'>
+            {/* Carousel */}
+            <div className='container carousal'>
                 <Carousels></Carousels>
             </div>
+            {/* 4 Services */}
             <div className='featured'>
                 <Featured></Featured>
             </div>

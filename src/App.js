@@ -42,7 +42,6 @@ function App() {
       <div className='footer-area'>
         <Footer></Footer>
       </div>
-
     </div>
   );
 }
