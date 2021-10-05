@@ -7,12 +7,7 @@ const Extra = () => {
     {
         textDecoration: 'none',
         fontWeight: "bold",
-        color: "black",
-    }
-    const actStyles =
-    {
-        textDecoration: 'none',
-        color: "whitesmoke",
+        color: "white",
     }
     return (
         <div className=''>
@@ -21,8 +16,8 @@ const Extra = () => {
             </div>
             <div className='container'>
                 <div>
-                    <Button className='confirm' variant="primary"><NavLink style={styles} activeStyle={actStyles} to='/extras'>Yes</NavLink></Button>{' '}
-                    <Button className='confirm' variant="primary"><NavLink style={styles} activeStyle={actStyles} to='/services'>No</NavLink></Button>{' '}
+                    <Button className='confirm' variant="primary"><NavLink style={styles} to='/extras'>Yes</NavLink></Button>{' '}
+                    <Button className='confirm' variant="primary"><NavLink style={styles} to='/services'>No</NavLink></Button>{' '}
                 </div>
                 <div className=''>
 
