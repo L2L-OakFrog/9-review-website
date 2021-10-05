@@ -29,10 +29,12 @@ const Home = (props) => {
                     </Row>
                 </Container>
             </div>
+            <hr />
             {/* Carousel */}
             <div className='container carousal'>
                 <Carousels></Carousels>
             </div>
+            <hr />
             {/* 4 Services */}
             <div className='featured'>
                 <Featured></Featured>
