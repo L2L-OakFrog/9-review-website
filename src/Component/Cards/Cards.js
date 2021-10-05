@@ -15,6 +15,7 @@ const Cards = (props) => {
         textDecoration: 'none',
         color: "whitesmoke",
     }
+    // Destructuring
     const { name, img, detail, price, rating, classes, students, category } = props.info;
     return (
         <Card className='card'>

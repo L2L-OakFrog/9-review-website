@@ -1,6 +1,13 @@
 .App {
   text-align: center;
 }
+.footer-area
+{
+  /* position: absolute;
+  left:0;
+  bottom:0;
+  right:0; */
+}
 .main-area
 {
   display :flex;

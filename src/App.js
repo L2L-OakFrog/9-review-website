@@ -39,7 +39,7 @@ function App() {
           </div>
         </Router>
       </div>
-      <div>
+      <div className='footer-area'>
         <Footer></Footer>
       </div>
 

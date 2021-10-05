@@ -2,7 +2,6 @@ import { Col, Container, Row, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import Carousels from '../Carousel/Carousel';
 import Featured from '../Featured/Featured';
-import FewCard from '../FewCards/FewCard';
 import './Home.css';
 
 const Home = (props) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Carousel } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const FewCard = (props) => {
@@ -14,6 +14,7 @@ const FewCard = (props) => {
         textDecoration: 'none',
         color: "whitesmoke",
     }
+    // Destructuring
     const { name, img, detail } = props.info;
     return (
         <Card className='card'>
