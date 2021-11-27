@@ -16,7 +16,7 @@ const Cards = (props) => {
         color: "whitesmoke",
     }
     // Destructuring
-    const { name, img, detail, price, rating, classes, students, category } = props.info;
+    const { id, name, img, detail, price, rating, classes, students, category } = props.info;
     return (
         <Card className='card'>
             <Card.Img variant="top" src={img} />
@@ -31,7 +31,7 @@ const Cards = (props) => {
                     <ListGroupItem><strong>Price:</strong> ${price}</ListGroupItem>
                 </ListGroup>
                 <br />
-                <Button variant="outline-primary"><NavLink style={styles} activeStyle={actStyles} to='/extra'>Enroll Now</NavLink></Button>{' '}
+                <Button variant="outline-primary"><NavLink style={styles} activeStyle={actStyles} to={`/extra/${id}/${name}`}>Enroll Now</NavLink></Button>{' '}
             </Card.Body>
         </Card>
     );

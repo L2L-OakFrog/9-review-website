@@ -8,6 +8,7 @@ import Services from './Component/Services/Services';
 import Extra from './Component/Extra/Extra';
 import Error from './Component/NotFound/Error';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Page from './Component/Page1/Page';
 
 function App() {
   return (
@@ -29,9 +30,26 @@ function App() {
               <Route path='/services'>
                 <Services></Services>
               </Route>
-              <Route path='/extra'>
+              <Route path='/extra/:extraId/:s'>
                 <Extra></Extra>
               </Route>
+              <Route
+                path="/page"
+                render={(props) => (
+                  <Page title="Gallery">
+                    <Extra {...props} />
+                  </Page>
+                )}
+              />
+
+              <Route
+                path="/profile"
+                render={(props) => (
+                  <Page title="User Profile">
+                    <About {...props} />
+                  </Page>
+                )}
+              />
               <Route path='*'>
                 <Error></Error>
               </Route>

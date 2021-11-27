@@ -6,7 +6,6 @@ import './Featured.css';
 const Featured = () => {
     const [infos, setInfo] = useData();
     const newInfos = infos.slice(0, 4);
-    console.log(newInfos);
     return (
         <div>
             <div>

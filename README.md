@@ -1,4 +1,4 @@
-# Learn Arabic with Arabites
+# Learn Arabic with Arabites(Review Website)
 
 This site is made for student who are interested in learning `Arabic & The language of Al-Quran`
 

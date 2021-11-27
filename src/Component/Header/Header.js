@@ -28,6 +28,8 @@ const Header = () => {
                 <NavLink style={styles} activeStyle={actStyles} to='/services'>Services</NavLink>
                 <NavLink style={styles} activeStyle={actStyles} to='/about'>About</NavLink>
                 <NavLink style={styles} activeStyle={actStyles} to='/extra'>Checkout</NavLink>
+                <NavLink style={styles} activeStyle={actStyles} to='/page'>Title Change1</NavLink>
+                <NavLink style={styles} activeStyle={actStyles} to='/profile'>Title Change2</NavLink>
             </div>
 
         </div>
